@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-const tuning = ['E', 'A', 'D', 'G', 'B', 'E']; // string 6 to 1
+const tuning = ['E', 'B', 'G', 'D', 'A', 'E']; // string 6 to 1
 const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-const numFrets = 13;
+const numFrets = 16;
 
 function getNoteForStringFret(stringIndex, fretIndex) {
   const openNote = tuning[stringIndex]; // string 0 is low E
